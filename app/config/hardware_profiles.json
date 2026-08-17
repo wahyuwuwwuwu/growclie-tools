@@ -1,0 +1,13 @@
+{
+    "active_profile": "classic_pc",
+    "profiles": {
+        "classic_pc": {
+            "name": "Classic PC",
+            "description": "Optimasi untuk PC lama tanpa GPU. Thread FFmpeg dibatasi, job sekuensial.",
+            "ffmpeg_threads": 3,
+            "queue_mode": "sequential",
+            "whisper_model": "base",
+            "whisper_compute_type": "int8"
+        }
+    }
+}
