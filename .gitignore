@@ -1,0 +1,1 @@
+Set-Content .gitignore -Value "*.mp4`n*.mkv`n*.avi`ninput/`noutput/`nvenv/"
