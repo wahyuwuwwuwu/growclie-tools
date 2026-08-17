@@ -60,11 +60,11 @@ if __name__ == "__main__":
     os.makedirs("output", exist_ok=True)
     
 # GANTI 'dummy.mp4' DENGAN NAMA FILE VIDEO ANDA DI FOLDER input/
-    nama_file_input = "testing1.mp4" 
+    nama_file_input = "hasil_potong_testing1.mp4" 
     
     input_file = f"input/{nama_file_input}"
     output_file = f"output/hasil_potong_{nama_file_input}"
-        
+
     if not os.path.exists(input_file):
         print(f"❌ File {input_file} tidak ditemukan!")
         print("Silakan ubah variabel 'nama_file_input' di script ini sesuai dengan nama video Anda.")
